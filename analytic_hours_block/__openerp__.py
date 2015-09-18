@@ -20,40 +20,15 @@
 ##############################################################################
 
 {
-    "name": "Project Hours Blocks Management",
-    "version": "1.5",
+    "name": "[DEPRECATED] Project Hours Blocks Management",
+    "version": "8.0.1.5",
     "category": "Generic Modules/Projects & Services",
-    "description": """
-Project Hours Blocks Management
-===============================
-
-This module allows you to handle hours blocks,
-to follow for example the user support contracts.
-This means, you sell a product of type "hours block"
-then you input the spent hours on the hours block and
-you can track and follow how much has been used.
-
- """,
     "author": "Camptocamp,Odoo Community Association (OCA)",
     "license": 'AGPL-3',
     "website": "http://www.camptocamp.com",
     "depends": [
-        "account",
-        "hr_timesheet_invoice",
-        "analytic",
-        "project",
-        "invoice_department",
+        "project_manager_invoicing",
         ],
-    "data": [
-        "report.xml",
-        "hours_block_view.xml",
-        "hours_block_data.xml",
-        "hours_block_menu.xml",
-        "product_view.xml",
-        "project_view.xml",
-        "report.xml",
-        "security/hours_block_security.xml",
-        "security/ir.model.access.csv",
-        ],
+    "data": [],
     "installable": True
 }
